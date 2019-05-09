@@ -1,0 +1,181 @@
+/*
+  Base CSS
+  @date 2019-02-05
+*/
+
+/* defaults for basic elements */
+body {
+  font-family: "EYInterstate Light", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+  margin: 0;
+  background-color: #EEE;
+  line-height: 1.3em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "EYInterstate Light", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  padding: 0px 0px 10px 0px;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+h1 span.accent {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffe600;
+  color: #ffe600;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.6em;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+h5 {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+b,
+strong {
+  font-family: "EYInterstate", Helvetica, Arial, sans-serif;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+a {
+  color: #42b983;
+}
+
+figure {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+figcaption {
+  font-family: EYInterstate, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+cite {
+  font-size: 1em;
+}
+
+/* special elements */
+.confidential {
+  color: red;
+  font-size: 1.5em;
+  transform: rotate(-10deg);
+}
+.placeholder {
+  border: 1px solid blueviolet;
+  padding: 20px;
+  margin: 40px 20px 20px 20px;
+  color: blueviolet;
+  font-style: italic;
+}
+.placeholder:before {
+  content: "PLACEHOLDER: CONTENT COMING SOON";
+  position: relative;
+  top: -50px;
+  color: blueviolet;
+}
+.draft {
+  border: 1px solid red;
+  padding: 20px;
+  margin: 40px 20px 20px 20px;
+  color: red;
+  font-style: italic;
+}
+.draft:before {
+  content: "DRAFT, NOT FINAL CONTENT";
+  position: relative;
+  top: -50px;
+  color: red;
+}
+.sample {
+  border: 1px solid green;
+  padding: 20px;
+  margin: 40px 20px 20px 20px;
+  color: green;
+  font-style: italic;
+}
+.sample:before {
+  content: "SAMPLE ONLY";
+  position: relative;
+  top: -50px;
+  color: green;
+}
+  
+
+/* Tables */
+table {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+th {
+  padding: 3px;
+}
+
+td {
+  padding: 3px;
+}
+
+
+/* printing rules */
+.print-only {
+  display: none;
+}
+@media print {
+  html,
+  body {
+    margin: 0;
+    font-family: "EYInterstate Light", Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+  }
+
+  h1,
+  h2,
+  h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  a {
+    color: #000;
+  }
+
+}

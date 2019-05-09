@@ -1,0 +1,14 @@
+{
+  "__metadata": {
+    "id": "f9dabe1b-69a1-4fa9-9345-63f6dc46455f",
+    "uri": "https://j0t.sharepoint.com/sites/pubtest/_api/Web/Lists(guid'071ef774-be50-4516-b2cb-65064eb3daff')/Items(3)",
+    "etag": "\"5\"",
+    "type": "SP.Data.SampleLibraryItem"
+  },
+  "Versions": {
+    "__deferred": {
+      "uri": "https://j0t.sharepoint.com/sites/pubtest/_api/Web/Lists(guid'071ef774-be50-4516-b2cb-65064eb3daff')/Items(3)/Versions"
+    }
+  },
+  "ServerRedirectedEmbedUrl": "https://j0t.sharepoint.com/sites/pubtest/_layouts/15/WopiFrame.aspx?sourcedoc={a96e2808-3c3b-4785-8d5a-8e1fa422b7cb}&action=interactivepreview"
+}

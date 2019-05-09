@@ -1,0 +1,41 @@
+[
+  {
+    "__metadata": {
+      "id": "786d8387-0f31-460b-8d7e-f195aa249868",
+      "uri": "https://j0t.sharepoint.com/sites/pubtest/_api/Web/Lists(guid'071ef774-be50-4516-b2cb-65064eb3daff')/Items(3)",
+      "etag": "\"5\"",
+      "type": "SP.Data.SampleLibraryItem"
+    },
+    "Id": 3,
+    "Title": "Motivating Employees",
+    "Summary": "Quae diligentissime contra Aristonem dicuntur a Chryippo. Videamus igitur sententias eorum, tum ad verba redeamus. Illi enim inter se dissentiunt. ",
+    "ID": 3,
+    "FileRef": "/sites/pubtest/SampleLibrary/motivating_employees_e_02.pdf"
+  },
+  {
+    "__metadata": {
+      "id": "2f45477c-35eb-4da3-98fc-b9c531471b7f",
+      "uri": "https://j0t.sharepoint.com/sites/pubtest/_api/Web/Lists(guid'071ef774-be50-4516-b2cb-65064eb3daff')/Items(2)",
+      "etag": "\"5\"",
+      "type": "SP.Data.SampleLibraryItem"
+    },
+    "Id": 2,
+    "Title": "Updated State of VueJS",
+    "Summary": "Mihi enim satis est, ipsis non satis. Quid igitur dubitamus in tota eius natura quaerere quid sit effectum? ",
+    "ID": 2,
+    "FileRef": "/sites/pubtest/SampleLibrary/Updated State of Vue.pdf"
+  },
+  {
+    "__metadata": {
+      "id": "bb11e571-df4e-446f-8055-2420245f5fd7",
+      "uri": "https://j0t.sharepoint.com/sites/pubtest/_api/Web/Lists(guid'071ef774-be50-4516-b2cb-65064eb3daff')/Items(1)",
+      "etag": "\"5\"",
+      "type": "SP.Data.SampleLibraryItem"
+    },
+    "Id": 1,
+    "Title": "VSCode Keyboard Shortcuts",
+    "Summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid ei reliquisti, nisi te, quoquo modo loqueretur, intellegere, quid diceret? Immo alio genere; Nulla erit controversia. Duo Reges: constructio interrete. ",
+    "ID": 1,
+    "FileRef": "/sites/pubtest/SampleLibrary/keyboard-shortcuts-windows.pdf"
+  }
+]

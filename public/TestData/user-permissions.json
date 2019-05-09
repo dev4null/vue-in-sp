@@ -1,0 +1,8 @@
+[
+  {
+    "Reviewer": true,
+    "Publisher": true,
+    "CanDelete": true,
+    "CanEdit": true
+  }
+]

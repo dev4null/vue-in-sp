@@ -1,0 +1,14 @@
+[
+  {
+    "__metadata": {
+      "id": "d65dcb7a-0a22-4273-9cb8-6bcfaee16448",
+      "uri": "https://j0t.sharepoint.com/sites/pubtest/_api/Web/Lists(guid'4f77d2fc-3dec-4346-ba2d-d99305c8db01')/Items(1)",
+      "etag": "\"2\"",
+      "type": "SP.Data.SampleListListItem"
+    },
+    "Id": 1,
+    "Title": "List read example",
+    "Content": "<h3>Welcome to <i>Vue in SharePoint</i> site!</h3><p>Tollitur beneficium, tollitur gratia, quae sunt vincla concordiae. Est, ut dicis, inquam. Sin eam, quam Hieronymus, ne fecisset idem, ut voluptatem illam Aristippi in prima commendatione poneret.</p><p>Idemne potest esse dies saepius, qui semel fuit? Comprehensum, quod cognitum non habet? Tantum dico, magis fuisse vestrum agere Epicuri diem natalem, quam illius testamento cavere ut ageretur. Consequens enim est et post oritur, ut dixi. Cuius ad naturam apta ratio vera illa et summa lex a philosophis dicitur. Sed ego in hoc resisto; Quid vero? </p>",
+    "ID": 1
+  }
+]

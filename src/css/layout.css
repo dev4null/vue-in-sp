@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.grid-layout {
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-areas: "navigation" "content" "footer";
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.eylogo {
+  height: 50px;
+}
+nav {
+  grid-area: navigation;
+}
+main {
+  grid-area: content;
+}
+footer {
+  grid-area: footer;
+  min-height: 60px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 10px 20px 10px 10px;
+}
+.footer-label {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}

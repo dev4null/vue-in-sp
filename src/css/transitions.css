@@ -1,0 +1,44 @@
+/**
+ * Vue transitions
+ * @date 2019-01-17
+ **/
+ .fade-enter-active,
+.fade-leave-active {
+  transition: opacity 2s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.delayed-enter {
+  transform: translateX(-50px);
+  opacity: 0;
+}
+.delayed-enter-active {
+  transition: all 2s;
+}
+
+.slide-fade-enter {
+  transform: translate(100px, 50px);
+  opacity: 0.1;
+  scale: 0.5;
+}
+.slide-fade-enter-active {
+  transition: all 2s ease 1s;
+}
+.slide-fade-leave-active {
+  transition: all 0.8s ease-out;
+}
+.slide-fade-leave-to {
+  transform: translateX(-200px);
+  opacity: 0.1;
+}
+@media screen and (max-width: 960px) {
+  .slide-fade-enter-active {
+    transition: all .5s ease 1s;
+  }
+  .slide-fade-leave-active {
+    transition: all 0.2s;
+  }
+  }
