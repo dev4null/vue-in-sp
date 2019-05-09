@@ -1,5 +1,7 @@
-# Vue in SP Demonstration
+# Vue in SharePoint Demonstration
 
+This is a demonstration of using Vue to build client-side webapps, hosted in SharePoint, that access content in SharePoint using [Microsoft's REST API](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/determine-sharepoint-rest-service-endpoint-uris).
+The API calls use a custom [Vue plug-in](https://github.com/BenRunInBay/sharepoint-vue-plugin) for reading and writing to the API, but you could use the [SharePoint client library](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/complete-basic-operations-using-javascript-library-code-in-sharepoint) or the [PnPjs library](https://pnp.github.io/pnpjs/).
 Read the slides for an overview of how I use Vue in SharePoint and the examples covered in this repo.
 
 ## Project setup
