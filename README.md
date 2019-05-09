@@ -1,5 +1,7 @@
 # Vue in SP Demonstration
 
+Read the slides for an overview of how I use Vue in SharePoint and the examples covered in this repo.
+
 ## Project setup
 
 ### Set up your SharePoint environment
