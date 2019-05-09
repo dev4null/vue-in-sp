@@ -35,10 +35,13 @@ See:
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compile and minify for production
 
 ```
 npm run build
 ```
 
-Then, upload these files to the SharePoint library you set up.
+### Then, upload these files to the SharePoint library you set up
+
+The URL will look something like this:
+//YourDomain.onmicrosoft.com/sites/YourNewPublishingSite/YourNewLibrary/default.aspx
