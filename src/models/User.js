@@ -4,9 +4,9 @@
  **/
 
 const PLACEHOLDER_PHOTO_URL =
-    "https://media.istockphoto.com/vectors/data-placeholder-image-gray-silhouette-no-photo-vector-id1016744076",
-  ACCOUNT_NAME_PREFIX = "i:0#.f|membership|",
-  UNKNOWN_NAME = "UNKNOWN USER";
+    'https://media.istockphoto.com/vectors/data-placeholder-image-gray-silhouette-no-photo-vector-id1016744076'
+const ACCOUNT_NAME_PREFIX = 'i:0#.f|membership|'
+const UNKNOWN_NAME = 'UNKNOWN USER'
 
 export class User {
   /*
@@ -14,25 +14,25 @@ export class User {
     If data is provided, then cast values to this user object
   */
   constructor(data) {
-    this.init();
-    if (data) this.mapBasicData(data);
+    this.init()
+    if (data) this.mapBasicData(data)
   }
   init() {
-    this.isLoaded = false;
-    this.arePermissionsLoaded = false;
+    this.isLoaded = false
+    this.arePermissionsLoaded = false
 
-    this.siteID = null;
-    this.globalID = null;
-    this.name = UNKNOWN_NAME;
-    this.email = null;
-    this.username = null;
-    this.photoUrl = PLACEHOLDER_PHOTO_URL;
-    this.profileUrl = null;
-    this.rank = null;
-    this.linkedInProfileUrl = null;
+    this.siteID = null
+    this.globalID = null
+    this.name = UNKNOWN_NAME
+    this.email = null
+    this.username = null
+    this.photoUrl = PLACEHOLDER_PHOTO_URL
+    this.profileUrl = null
+    this.rank = null
+    this.linkedInProfileUrl = null
 
-    this.language = null;
-    this.permissions = {};
+    this.language = null
+    this.permissions = {}
   }
 
   /*
@@ -53,26 +53,26 @@ export class User {
   mapBasicData(data) {
     if (data) {
       if (data.UserIdentity) {
-        this.siteID = data.UserIdentity.ID;
-        this.name = data.UserIdentity.Title;
-        this.email = data.UserIdentity.EMail;
-        this.username = data.UserIdentity.Name;
+        this.siteID = data.UserIdentity.ID
+        this.name = data.UserIdentity.Title
+        this.email = data.UserIdentity.EMail
+        this.username = data.UserIdentity.Name
       } else if (data.AccountName) {
-        this.username = data.AccountName;
-        if (data.DisplayName) this.name = data.DisplayName;
-        if (data.Email) this.email = data.Email;
-        if (data.PictureUrl) this.photoUrl = data.PictureUrl;
-        if (data.PersonalUrl) this.profileUrl = data.PersonalUrl;
-        if (data.Title) this.rank = data.Title;
+        this.username = data.AccountName
+        if (data.DisplayName) this.name = data.DisplayName
+        if (data.Email) this.email = data.Email
+        if (data.PictureUrl) this.photoUrl = data.PictureUrl
+        if (data.PersonalUrl) this.profileUrl = data.PersonalUrl
+        if (data.Title) this.rank = data.Title
       } else {
-        this.siteID = data.ID;
+        this.siteID = data.ID
         if (data.DisplayName) {
-          this.name = data.DisplayName;
-          if (data.Title) this.rank = data.Title;
-        } else if (data.Title) this.name = data.Title;
-        if (data.Name) this.username = data.Name;
+          this.name = data.DisplayName
+          if (data.Title) this.rank = data.Title
+        } else if (data.Title) this.name = data.Title
+        if (data.Name) this.username = data.Name
       }
-      this.isLoaded = true;
+      this.isLoaded = true
     }
   }
   /*
@@ -80,19 +80,18 @@ export class User {
   */
   mapProfileData(data) {
     if (data) {
-      if (data.DisplayName) this.name = data.DisplayName;
+      if (data.DisplayName) this.name = data.DisplayName
       if (
         data.PictureUrl &&
-        (!this.photoUrl || this.photoUrl == PLACEHOLDER_PHOTO_URL)
-      )
-        this.photoUrl = data.PictureUrl;
-      if (data.Email) this.email = data.Email;
-      if (data.AccountName) this.username = data.AccountName;
-      else if (this.email) this.username = ACCOUNT_NAME_PREFIX + this.email;
-      if (data.PersonalUrl) this.profileUrl = data.PersonalUrl;
-      if (data.Title) this.rank = data.Title;
+        (!this.photoUrl || this.photoUrl === PLACEHOLDER_PHOTO_URL)
+      ) { this.photoUrl = data.PictureUrl }
+      if (data.Email) this.email = data.Email
+      if (data.AccountName) this.username = data.AccountName
+      else if (this.email) this.username = ACCOUNT_NAME_PREFIX + this.email
+      if (data.PersonalUrl) this.profileUrl = data.PersonalUrl
+      if (data.Title) this.rank = data.Title
 
-      this.isLoaded = true;
+      this.isLoaded = true
     }
   }
   /*
@@ -108,23 +107,23 @@ export class User {
             email: this.email
           })
           .then(profileData => {
-            this.mapProfileData(profileData);
+            this.mapProfileData(profileData)
             spc
               .ensureSiteUserId({
                 accountName: this.username
               })
               .then(id => {
-                this.siteID = id;
-                resolve();
+                this.siteID = id
+                resolve()
               })
               .catch(error => {
-                resolve();
-              });
+                reject(error)
+              })
           })
           .catch(error => {
-            reject(error);
-          });
-      } else reject("No SharePointConnector provided.");
-    });
+            reject(error)
+          })
+      } else reject('No SharePointConnector provided.')
+    })
   }
 }

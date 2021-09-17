@@ -1,17 +1,17 @@
 <template>
   <nav>
-    <span v-for="(item,index) in navMenuOptions" :key="index" v-show="item.active">
-      <v-btn :to="item.path" :color="item.color" :flat="flat" :dark="dark">{{item.label}}</v-btn>
+    <span v-for="(item,index) in navMenuOptions" v-show="item.active" :key="index">
+      <v-btn :to="item.path" :color="item.color">{{ item.label }}</v-btn>
     </span>
     <v-menu offset-y class="mobile">
-      <template v-slot:activator="{ on }">
-        <v-btn class="mobile" :color="color" :dark="dark" :flat="flat" v-on="on">Navigation</v-btn>
+      <template #activator="{ on }">
+        <v-btn class="mobile" :color="color" v-on="on">Navigation</v-btn>
       </template>
       <v-list>
         <v-list-tile
           v-for="(item, index) in navMenuOptions"
-          :key="index"
           v-show="item.active"
+          :key="index"
           :to="item.path"
         >
           <v-list-tile-title :color="item.color">{{ item.label }}</v-list-tile-title>
@@ -27,40 +27,40 @@
  */
 export default {
   props: {
-    items: Array,
+    // items: Array,
     useRouteOptions: { type: Boolean, default: false },
-    color: { type: String, default: "blue-grey darken-3 white--text" },
-    activeColor: { type: String, default: "deep-orange darken-2 white--text" },
+    color: { type: String, default: 'blue-grey darken-3 white--text' },
+    activeColor: { type: String, default: 'deep-orange darken-2 white--text' },
     flat: { type: Boolean, default: false },
     dark: { type: Boolean, default: false }
   },
   data: () => {
     return {
       navMenuOptions: []
-    };
-  },
-  created() {
-    if (this.useRouteOptions) this.determineNavsFromRouter();
-    else this.setNavFomItems();
-  },
-  mounted() {
-    this.updateNavsFromRoute();
+    }
   },
   watch: {
     $route() {
-      this.updateNavsFromRoute();
+      this.updateNavsFromRoute()
     },
     items() {
-      this.updateNavsFromRoute();
+      this.updateNavsFromRoute()
     }
+  },
+  created() {
+    if (this.useRouteOptions) this.determineNavsFromRouter()
+    else this.setNavFomItems()
+  },
+  mounted() {
+    this.updateNavsFromRoute()
   },
   methods: {
     setNavFomItems() {
       if (this.items && this.items.length) {
-        this.navMenuOptions.splice(0);
+        this.navMenuOptions.splice(0)
         this.items.forEach(item => {
-          this.navMenuOptions.push(item);
-        });
+          this.navMenuOptions.push(item)
+        })
       }
     },
     determineNavsFromRouter() {
@@ -70,7 +70,7 @@ export default {
         this.$router.options.routes &&
         this.$router.options.routes.length
       ) {
-        this.navMenuOptions.splice(0);
+        this.navMenuOptions.splice(0)
         this.$router.options.routes.forEach(route => {
           this.navMenuOptions.push({
             name: route.name,
@@ -78,10 +78,10 @@ export default {
             label: route.label,
             icon: route.icon,
             active: route.active,
-            color: ""
-          });
-        });
-        this.updateNavsFromRoute();
+            color: ''
+          })
+        })
+        this.updateNavsFromRoute()
       }
     },
     /*
@@ -91,21 +91,21 @@ export default {
       }
     */
     restrictAccess(restrictions) {
-      for (let r in restrictions) {
-        let setting = restrictions[r];
+      for (const r in restrictions) {
+        const setting = restrictions[r]
         this.navMenuOptions.forEach(option => {
-          if (option.name == r) option.active = setting;
-        });
+          if (option.name === r) option.active = setting
+        })
       }
     },
     updateNavsFromRoute() {
       this.navMenuOptions.forEach(item => {
         item.color =
-          item.name == this.$route.name ? this.activeColor : this.color;
-      });
+          item.name === this.$route.name ? this.activeColor : this.color
+      })
     }
   }
-};
+}
 </script>
 <style scoped>
 nav {

@@ -1,14 +1,1598 @@
-[
-  {
-    "__metadata": {
-      "id": "d65dcb7a-0a22-4273-9cb8-6bcfaee16448",
-      "uri": "https://j0t.sharepoint.com/sites/pubtest/_api/Web/Lists(guid'4f77d2fc-3dec-4346-ba2d-d99305c8db01')/Items(1)",
-      "etag": "\"2\"",
-      "type": "SP.Data.SampleListListItem"
-    },
-    "Id": 1,
-    "Title": "List read example",
-    "Content": "<h3>Welcome to <i>Vue in SharePoint</i> site!</h3><p>Tollitur beneficium, tollitur gratia, quae sunt vincla concordiae. Est, ut dicis, inquam. Sin eam, quam Hieronymus, ne fecisset idem, ut voluptatem illam Aristippi in prima commendatione poneret.</p><p>Idemne potest esse dies saepius, qui semel fuit? Comprehensum, quod cognitum non habet? Tantum dico, magis fuisse vestrum agere Epicuri diem natalem, quam illius testamento cavere ut ageretur. Consequens enim est et post oritur, ut dixi. Cuius ad naturam apta ratio vera illa et summa lex a philosophis dicitur. Sed ego in hoc resisto; Quid vero? </p>",
-    "ID": 1
-  }
-]
+ [
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(1)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(1)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(1)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(1)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(1)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(1)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(1)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(1)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(1)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(1)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(1)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(1)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 1,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "111",
+                "position": "выв",
+                "division": "ывы",
+                "datevisit": "2021-08-13T06:00:00Z",
+                "office": null,
+                "Login": null,
+                "fio": null,
+                "ID": 1,
+                "Modified": "2021-08-06T06:48:28Z",
+                "Created": "2021-08-06T06:48:28Z",
+                "AuthorId": 5796,
+                "EditorId": 5796,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "cc72455e-759b-4a9d-91c1-ac99335fb326"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(2)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(2)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(2)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(2)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(2)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(2)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(2)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(2)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(2)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(2)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(2)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(2)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 2,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "dqd",
+                "position": "111",
+                "division": "111",
+                "datevisit": "2021-08-08T11:25:00Z",
+                "office": null,
+                "Login": null,
+                "fio": null,
+                "ID": 2,
+                "Modified": "2021-08-06T06:53:21Z",
+                "Created": "2021-08-06T06:53:21Z",
+                "AuthorId": 5796,
+                "EditorId": 5796,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "0701b4cf-cca6-4f7c-92d4-e5898288ceb3"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(3)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(3)",
+                    "etag": "\"2\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(3)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(3)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(3)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(3)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(3)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(3)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(3)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(3)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(3)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(3)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 3,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "12345",
+                "position": null,
+                "division": null,
+                "datevisit": "2021-08-13T11:10:00Z",
+                "office": null,
+                "Login": null,
+                "fio": null,
+                "ID": 3,
+                "Modified": "2021-08-06T07:35:18Z",
+                "Created": "2021-08-06T07:33:06Z",
+                "AuthorId": 2720,
+                "EditorId": 2720,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "32bf0bf0-efd3-43ab-998a-9310764fd03c"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(4)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(4)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(4)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(4)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(4)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(4)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(4)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(4)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(4)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(4)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(4)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(4)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 4,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "МЦ-005",
+                "position": "Начальник отдела",
+                "division": "Отдел автоматизации бизнес процессов и систем документооборота",
+                "datevisit": "2021-08-15T06:00:00Z",
+                "office": null,
+                "Login": null,
+                "fio": null,
+                "ID": 4,
+                "Modified": "2021-08-15T09:45:45Z",
+                "Created": "2021-08-15T09:45:45Z",
+                "AuthorId": 5136,
+                "EditorId": 5136,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "02fcd5f3-3a6a-4e66-a1aa-07aefd972f02"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(5)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(5)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(5)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(5)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(5)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(5)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(5)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(5)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(5)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(5)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(5)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(5)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 5,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "МЦ-005",
+                "position": "Начальник отдела",
+                "division": "Отдел автоматизации бизнес процессов и систем документооборота",
+                "datevisit": "2021-08-15T10:00:00Z",
+                "office": null,
+                "Login": null,
+                "fio": null,
+                "ID": 5,
+                "Modified": "2021-08-15T09:49:42Z",
+                "Created": "2021-08-15T09:49:42Z",
+                "AuthorId": 5136,
+                "EditorId": 5136,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "45bfb450-5b4e-44d3-a2cb-bd2ee728ade4"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(6)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(6)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(6)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(6)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(6)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(6)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(6)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(6)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(6)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(6)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(6)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(6)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 6,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "МЦ-005",
+                "position": "Начальник отдела",
+                "division": "Отдел автоматизации бизнес процессов и систем документооборота",
+                "datevisit": "2021-08-19T11:00:00Z",
+                "office": null,
+                "Login": null,
+                "fio": null,
+                "ID": 6,
+                "Modified": "2021-08-16T10:42:36Z",
+                "Created": "2021-08-16T10:42:36Z",
+                "AuthorId": 5136,
+                "EditorId": 5136,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "63051c8b-f0fb-478c-9384-3806b04e7df3"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(7)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(7)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(7)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(7)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(7)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(7)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(7)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(7)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(7)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(7)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(7)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(7)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 7,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "12",
+                "position": "Начальник отдела",
+                "division": "Отдел автоматизации бизнес процессов и систем документооборота",
+                "datevisit": "2021-08-14T21:00:00Z",
+                "office": null,
+                "Login": null,
+                "fio": null,
+                "ID": 7,
+                "Modified": "2021-08-16T10:51:40Z",
+                "Created": "2021-08-16T10:51:40Z",
+                "AuthorId": 5136,
+                "EditorId": 5136,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "b9d61b27-daf1-407e-b5a1-5c8e55eded08"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(8)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(8)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(8)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(8)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(8)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(8)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(8)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(8)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(8)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(8)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(8)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(8)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 8,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "МЦ-005",
+                "position": "Начальник отдела",
+                "division": "Отдел автоматизации бизнес процессов и систем документооборота",
+                "datevisit": "2021-08-14T21:05:00Z",
+                "office": null,
+                "Login": null,
+                "fio": null,
+                "ID": 8,
+                "Modified": "2021-08-16T10:52:07Z",
+                "Created": "2021-08-16T10:52:07Z",
+                "AuthorId": 5136,
+                "EditorId": 5136,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "876585ef-3ada-4698-abcf-ba8540cdace7"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(9)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(9)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(9)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(9)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(9)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(9)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(9)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(9)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(9)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(9)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(9)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(9)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 9,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "МЦ-005",
+                "position": "Начальник отдела",
+                "division": "Отдел автоматизации бизнес процессов и систем документооборота",
+                "datevisit": "2021-08-14T21:10:00Z",
+                "office": null,
+                "Login": null,
+                "fio": null,
+                "ID": 9,
+                "Modified": "2021-08-16T10:52:24Z",
+                "Created": "2021-08-16T10:52:24Z",
+                "AuthorId": 5136,
+                "EditorId": 5136,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "7bd5783d-3483-43a6-8a7a-c80aac311207"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(10)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(10)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(10)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(10)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(10)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(10)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(10)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(10)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(10)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(10)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(10)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(10)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 10,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "МЦ-005",
+                "position": "Начальник отдела",
+                "division": "Отдел автоматизации бизнес процессов и систем документооборота",
+                "datevisit": "2021-08-14T21:15:00Z",
+                "office": null,
+                "Login": null,
+                "fio": null,
+                "ID": 10,
+                "Modified": "2021-08-16T10:52:42Z",
+                "Created": "2021-08-16T10:52:42Z",
+                "AuthorId": 5136,
+                "EditorId": 5136,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "92985be6-171b-489a-855e-05dec3df8e5c"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(11)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(11)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(11)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(11)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(11)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(11)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(11)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(11)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(11)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(11)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(11)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(11)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 11,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "пап",
+                "position": "1",
+                "division": "1",
+                "datevisit": "2021-08-25T21:00:00Z",
+                "office": null,
+                "Login": null,
+                "fio": null,
+                "ID": 11,
+                "Modified": "2021-08-26T09:52:47Z",
+                "Created": "2021-08-26T09:52:47Z",
+                "AuthorId": 5796,
+                "EditorId": 5796,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "0fc89378-5341-484a-ba18-6393f8c9af37"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(12)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(12)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(12)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(12)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(12)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(12)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(12)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(12)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(12)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(12)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(12)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(12)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 12,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "11",
+                "position": "уыепа",
+                "division": "упу",
+                "datevisit": "2021-08-27T13:00:00Z",
+                "office": null,
+                "Login": null,
+                "fio": null,
+                "ID": 12,
+                "Modified": "2021-08-26T09:56:42Z",
+                "Created": "2021-08-26T09:56:42Z",
+                "AuthorId": 5796,
+                "EditorId": 5796,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "33e6a431-28f1-47a3-a367-f1e3e7581fb6"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(13)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(13)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(13)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(13)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(13)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(13)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(13)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(13)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(13)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(13)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(13)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(13)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 13,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "ывавы",
+                "position": "йцйу",
+                "division": "йуй",
+                "datevisit": "2021-08-28T13:00:00Z",
+                "office": "ПМО",
+                "Login": null,
+                "fio": null,
+                "ID": 13,
+                "Modified": "2021-08-26T10:02:14Z",
+                "Created": "2021-08-26T10:02:14Z",
+                "AuthorId": 5796,
+                "EditorId": 5796,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "450f5468-b84c-49c0-92c4-4050d7ec97d4"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(14)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(14)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(14)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(14)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(14)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(14)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(14)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(14)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(14)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(14)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(14)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(14)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 14,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "123",
+                "position": null,
+                "division": null,
+                "datevisit": null,
+                "office": "ПМО",
+                "Login": null,
+                "fio": null,
+                "ID": 14,
+                "Modified": "2021-09-16T05:34:01Z",
+                "Created": "2021-09-16T05:34:01Z",
+                "AuthorId": 10789,
+                "EditorId": 10789,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "bd15f5d1-288d-469a-8d0c-ec2a416aa8c6"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(15)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(15)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(15)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(15)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(15)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(15)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(15)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(15)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(15)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(15)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(15)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(15)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 15,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "12345",
+                "position": null,
+                "division": null,
+                "datevisit": null,
+                "office": "ПМО",
+                "Login": null,
+                "fio": null,
+                "ID": 15,
+                "Modified": "2021-09-16T08:11:30Z",
+                "Created": "2021-09-16T08:11:30Z",
+                "AuthorId": 10789,
+                "EditorId": 10789,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "d1a6cb7a-6522-4e96-bf73-2a2f92dfd39e"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(16)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(16)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(16)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(16)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(16)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(16)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(16)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(16)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(16)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(16)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(16)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(16)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 16,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "123",
+                "position": "Старший специалист",
+                "division": "Группа развития информационных процессов и автоматизации",
+                "datevisit": null,
+                "office": "ПМО",
+                "Login": "FedorenkoVYU",
+                "fio": null,
+                "ID": 16,
+                "Modified": "2021-09-16T09:05:34Z",
+                "Created": "2021-09-16T09:05:34Z",
+                "AuthorId": 10789,
+                "EditorId": 10789,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "cd870d2d-6ef7-4413-9159-340dcde7c27f"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(17)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(17)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(17)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(17)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(17)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(17)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(17)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(17)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(17)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(17)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(17)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(17)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 17,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "123",
+                "position": "Старший специалист",
+                "division": "Группа развития информационных процессов и автоматизации",
+                "datevisit": null,
+                "office": "ПМО",
+                "Login": "FedorenkoVYU",
+                "fio": null,
+                "ID": 17,
+                "Modified": "2021-09-16T09:20:21Z",
+                "Created": "2021-09-16T09:20:21Z",
+                "AuthorId": 10789,
+                "EditorId": 10789,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "23d5993c-a6ae-401b-a2b3-4abf6a029bbe"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(18)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(18)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(18)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(18)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(18)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(18)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(18)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(18)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(18)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(18)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(18)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(18)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 18,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "123",
+                "position": "Старший специалист",
+                "division": "Группа развития информационных процессов и автоматизации",
+                "datevisit": null,
+                "office": "ПМО",
+                "Login": "FedorenkoVYU",
+                "fio": null,
+                "ID": 18,
+                "Modified": "2021-09-16T09:22:07Z",
+                "Created": "2021-09-16T09:22:07Z",
+                "AuthorId": 10789,
+                "EditorId": 10789,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "47f0f502-03c5-4393-95af-263bb6d639d3"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(19)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(19)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(19)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(19)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(19)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(19)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(19)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(19)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(19)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(19)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(19)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(19)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 19,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "111",
+                "position": "Старший специалист",
+                "division": "Группа развития информационных процессов и автоматизации",
+                "datevisit": null,
+                "office": "ПМО",
+                "Login": "FedorenkoVYU",
+                "fio": null,
+                "ID": 19,
+                "Modified": "2021-09-16T09:28:55Z",
+                "Created": "2021-09-16T09:28:55Z",
+                "AuthorId": 10789,
+                "EditorId": 10789,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "144265d5-f5ce-49bd-9a19-41bd690de8cc"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(20)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(20)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(20)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(20)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(20)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(20)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(20)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(20)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(20)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(20)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(20)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(20)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 20,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "123",
+                "position": "Старший специалист",
+                "division": "Группа развития информационных процессов и автоматизации",
+                "datevisit": "2021-09-16T09:00:00Z",
+                "office": "ПМО",
+                "Login": "FedorenkoVYU",
+                "fio": "Федоренко Василий Юрьевич",
+                "ID": 20,
+                "Modified": "2021-09-16T10:11:30Z",
+                "Created": "2021-09-16T10:11:30Z",
+                "AuthorId": 10789,
+                "EditorId": 10789,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "b57a5cc1-4375-4e07-9ad4-260d2d42c990"
+            },
+            {
+                "__metadata": {
+                    "id": "Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(21)",
+                    "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(21)",
+                    "etag": "\"1\"",
+                    "type": "SP.Data.MedicalrecordlistListItem"
+                },
+                "FirstUniqueAncestorSecurableObject": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(21)/FirstUniqueAncestorSecurableObject"
+                    }
+                },
+                "RoleAssignments": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(21)/RoleAssignments"
+                    }
+                },
+                "AttachmentFiles": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(21)/AttachmentFiles"
+                    }
+                },
+                "ContentType": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(21)/ContentType"
+                    }
+                },
+                "FieldValuesAsHtml": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(21)/FieldValuesAsHtml"
+                    }
+                },
+                "FieldValuesAsText": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(21)/FieldValuesAsText"
+                    }
+                },
+                "FieldValuesForEdit": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(21)/FieldValuesForEdit"
+                    }
+                },
+                "File": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(21)/File"
+                    }
+                },
+                "Folder": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(21)/Folder"
+                    }
+                },
+                "ParentList": {
+                    "__deferred": {
+                        "uri": "https://corp.polyus.com/medicalrecord/_api/Web/Lists(guid'082d61b8-bf87-4472-b148-a3bc56034f7e')/Items(21)/ParentList"
+                    }
+                },
+                "FileSystemObjectType": 0,
+                "Id": 21,
+                "ContentTypeId": "0x01006DFC75DE2D39DF46A480F265E3743BFF",
+                "Title": "123",
+                "position": "Старший специалист",
+                "division": "Группа развития информационных процессов и автоматизации",
+                "datevisit": "2021-09-16T09:20:00Z",
+                "office": "ПМО",
+                "Login": "FedorenkoVYU",
+                "fio": "Федоренко Василий Юрьевич",
+                "ID": 21,
+                "Modified": "2021-09-16T10:43:34Z",
+                "Created": "2021-09-16T10:43:34Z",
+                "AuthorId": 10789,
+                "EditorId": 10789,
+                "OData__UIVersionString": "1.0",
+                "Attachments": false,
+                "GUID": "b0fdc755-16e0-47e8-91fc-83dc2f626b6f"
+            }
+        ]
