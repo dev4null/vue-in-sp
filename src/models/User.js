@@ -94,36 +94,9 @@ export class User {
       this.isLoaded = true
     }
   }
-  /*
-    Load full profile
-    spc: SharePoint Vue plugin instance (this.$sp)
-  */
-  loadProfile(spc) {
+  loadProfile() {
     return new Promise((resolve, reject) => {
-      if (spc && (this.username || this.email)) {
-        spc
-          .retrievePeopleProfile({
-            accountName: this.username,
-            email: this.email
-          })
-          .then(profileData => {
-            this.mapProfileData(profileData)
-            spc
-              .ensureSiteUserId({
-                accountName: this.username
-              })
-              .then(id => {
-                this.siteID = id
-                resolve()
-              })
-              .catch(error => {
-                reject(error)
-              })
-          })
-          .catch(error => {
-            reject(error)
-          })
-      } else reject('No SharePointConnector provided.')
+
     })
   }
 }

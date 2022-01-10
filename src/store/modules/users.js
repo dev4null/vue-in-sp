@@ -18,37 +18,8 @@ const getters = {
 
 // actions
 const actions = {
-  loadCurrentUser(context, { spc }) {
-    ErrorLogger.log('loadCurrentUser')
-    return new Promise((resolve, reject) => {
-      if (spc) {
-        spc
-          .retrieveCurrentUserProfile()
-          .then(profileData => {
-            context.commit('castCurrentUser', profileData)
-            const u = context.getters.current
-            const accountName = u ? u.getAccountName() : null
-            if (accountName) {
-              spc
-                .ensureSiteUserId({
-                  accountName
-                })
-                .then(id => {
-                  // commit('setCurrentUserSiteID', id)
-                  resolve()
-                })
-                .catch(error => {
-                // user does not exist in this site
-                // but that's not considered an error
-                  resolve(error)
-                })
-            } else resolve()
-          })
-          .catch(error => {
-            reject(error)
-          })
-      } else reject('No SharePointConnector provided')
-    })
+  loadCurrentUser(context) {
+
   }
 }
 
@@ -77,8 +48,3 @@ export default {
 }
 
 // error logger
-const ErrorLogger = {
-  log(message) {
-    if (typeof window === 'object' && typeof window.logger === 'object') { window.logger.log(message) } else console.log(message)
-  }
-}

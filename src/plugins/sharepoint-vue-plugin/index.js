@@ -43,15 +43,11 @@ const baseConfig = {
   devLoadDelay: 1000,
   devLoadDelayMin: null,
   devLoadDelayMax: null,
-  profileDefaultSelect:
-      'AccountName,DisplayName,Email,PictureUrl,PersonalUrl,Title,UserProfileProperties',
-  myProfileDefaultSelect:
-      'DisplayName,AccountName,Email,PictureUrl,PersonalUrl,Title',
+  profileDefaultSelect: 'AccountName,DisplayName,Email,PictureUrl,PersonalUrl,Title,UserProfileProperties',
+  myProfileDefaultSelect: 'DisplayName,AccountName,Email,PictureUrl,PersonalUrl,Title',
   listPath: '_api/Web/Lists/',
-  currentUserPropertiesPathPrefix:
-      '_api/sp.userprofiles.peoplemanager/getmyproperties/?$select=',
-  peopleManagerPathPrefix:
-      '_api/sp.userprofiles.peoplemanager/GetPropertiesFor(accountName=@v)?@v=',
+  currentUserPropertiesPathPrefix: '_api/sp.userprofiles.peoplemanager/getmyproperties/?$select=',
+  peopleManagerPathPrefix: '_api/sp.userprofiles.peoplemanager/GetPropertiesFor(accountName=@v)?@v=',
   ensureUserPathPrefix: '_api/web/ensureuser',
   sendEmailPathPrefix: '_api/SP.Utilities.Utility.SendEmail',
   accountNamePrefix: 'i:0#.f|membership|',

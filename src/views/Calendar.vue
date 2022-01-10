@@ -1,16 +1,15 @@
 <template>
   <v-container fluid>
-    <v-sheet height="64">
+    <v-sheet>
+      <v-layout row wrap align-center>
+        <v-flex>
+          <h2>Запись на прием к терапевту для сотрудников БЦ Баланс (Красноярск)</h2>
+        </v-flex>
+      </v-layout>
+
+    </v-sheet>
+    <v-sheet>
       <v-toolbar flat>
-        <v-btn
-          outlined
-          class="mr-4"
-          color="grey darken-2"
-          to="/list"
-        >
-          Список
-        </v-btn>
-        &nbsp;
         <v-btn
           outlined
           class="mr-4"
@@ -82,7 +81,7 @@
         </v-menu>
       </v-toolbar>
     </v-sheet>
-    <v-sheet height="600">
+    <v-sheet height="800">
       <v-calendar
         ref="calendar"
         v-model="focus"
@@ -90,47 +89,16 @@
         :events="events"
         :event-color="getEventColor"
         :type="type"
-        interval-minutes="20"
-        interval-count="48"
-        first-time="04:00"
+        interval-minutes="60"
+        interval-count="9"
+        first-time="09:00"
+        interval-height="77"
+        event-height="18"
+        :weekdays="weekday"
         locale="RU-ru"
-        weekdays="[1, 2, 3, 4, 5, 6, 0]"
-        event-more-text="Еще {0}"
-        @click:event="showEvent"
-        @click:more="viewDay"
         @click:date="viewDay"
+        @click:more="viewDay"
       />
-      <v-menu
-        v-model="selectedOpen"
-        :close-on-content-click="false"
-        :activator="selectedElement"
-        offset-x
-      >
-        <v-card
-          color="grey lighten-4"
-          min-width="350px"
-          flat
-        >
-          <v-toolbar :color="selectedEvent.color" dark>
-            <v-toolbar-title v-html="selectedEvent.name" />
-            <v-spacer />
-          </v-toolbar>
-          <v-card-text>
-            <span> {{ selectedEvent.position }} </span> <v-spacer />
-            <span> {{ selectedEvent.division }}  </span> <v-spacer />
-            <span> {{ selectedEvent.start | moment('HH:mm') }} </span> <v-spacer />
-          </v-card-text>
-          <v-card-actions>
-            <v-btn
-              text
-              color="secondary"
-              @click="selectedOpen = false"
-            >
-              Cancel
-            </v-btn>
-          </v-card-actions>
-        </v-card>
-      </v-menu>
     </v-sheet>
     <v-dialog
       v-model="dialog"
@@ -163,18 +131,45 @@
                 :rules="[v => !!v || 'Поле озязательно для заполнения']"
               />
 
-              <v-text-field v-model="event.tabNum" label="Табельный" required />
-              <v-text-field v-model="event.position" label="Должность" />
-              <v-text-field v-model="event.division" label="Подразделение" required />
+              <div>
+                <v-menu
+                  ref="menu"
+                  v-model="menu"
+                  :close-on-content-click="false"
+                  transition="scale-transition"
+                  offset-y
+                  min-width="auto"
+                >
+                  <template #activator="{ on, attrs }">
+                    <v-text-field
+                      v-model="event.dateOfBirth"
+                      label="Дата рождения"
+                      readonly
+                      v-bind="attrs"
+                      required
+                      v-on="on"
+                    />
+                  </template>
+                  <v-date-picker
+                    v-model="event.dateOfBirth"
+                    :active-picker.sync="activePicker"
+                    :max="(new Date(Date.now() - (new Date()).getTimezoneOffset() * 60000)).toISOString().substr(0, 10)"
+                    min="1950-01-01"
+                    @change="saveD"
+                  />
+                </v-menu>
+              </div>
 
-              <v-datetime-picker v-model="event.dateTime" label="Дата посещения" :time-picker-props="timeProps" required :rules="[v => !!v || 'Поле озязательно для заполнения']">
+              <v-text-field v-model="event.be" label="БЕ" required />
+
+              <dateTimePicker v-model="event.date" label="Дата посещения" :time-picker-props="timeProps" :date-picker-props="dateProps" required :rules="[v => !!v || 'Поле озязательно для заполнения']" @selectDate="selectDate">
                 <template slot="dateIcon">
                   <v-icon> mdi-calendar</v-icon>
                 </template>
                 <template slot="timeIcon">
                   <v-icon> mdi-clock</v-icon>
                 </template>
-              </v-datetime-picker>
+              </dateTimePicker>
             </v-form>
           </v-container>
         </v-card-text>
@@ -208,20 +203,33 @@
   </v-container>
 </template>
 <script>
+
+import DateTimePicker from '@/components/DatetimePicker.vue'
+
 export default {
+  components: { DateTimePicker },
   data: () => ({
     focus: '',
     type: 'month',
     typeToLabel: {
-      month: 'Месяц',
       week: 'Неделя',
-      day: 'День'
+      day: 'День',
+      month: 'Месяц'
     },
     timeProps: {
       format: '24hr',
-      allowedMinutes: m => m % 6 === 0
+      allowedMinutes: m => m % 15 === 0
     },
+    dateProps: {
+      allowedDates: d => {
+        const day = new Date(d).getDay()
+        return day === 2 || day === 4
+      }
+    },
+    weekday: [1, 2, 3, 4, 5],
     dialog: false,
+    menu: false,
+    activePicker: null,
     selectedEvent: {},
     selectedElement: null,
     selectedOpen: false,
@@ -233,11 +241,11 @@ export default {
     event: {
       fio: '',
       login: '',
-      position: '',
-      division: '',
-      tabNum: '',
-      dateTime: null
+      be: '',
+      date: null,
+      dateOfBirth: null
     },
+    calendarDate: null,
     valid: true,
     person: null,
     isLoading: false,
@@ -269,16 +277,16 @@ export default {
       if (!val) {
         this.event.fio = ''
         this.event.login = ''
-        this.event.position = ''
-        this.event.division = ''
+        this.event.be = ''
       } else {
         this.event.fio = val.FullName
         this.event.login = val.Login
-        this.event.position = val.JobTitle
-        this.event.division = val.Department
+        this.event.be = val.Company
       }
+    },
+    menu(val) {
+      val && setTimeout(() => (this.activePicker = 'YEAR'))
     }
-
   },
   mounted() {
     this.$refs.calendar.checkChange()
@@ -287,13 +295,15 @@ export default {
     this.getData()
   },
   methods: {
-    allowedStep: m => m % 6 === 0,
     viewDay({ date }) {
       this.focus = date
       this.type = 'day'
     },
     getEventColor(event) {
       return event.color
+    },
+    selectDate(d) {
+      this.calendarDate = d
     },
     setToday() {
       this.focus = ''
@@ -304,49 +314,35 @@ export default {
     next() {
       this.$refs.calendar.next()
     },
-    showEvent({ nativeEvent, event }) {
-      const open = () => {
-        this.selectedEvent = event
-        this.selectedElement = nativeEvent.target
-        // requestAnimationFrame(() => requestAnimationFrame(() => this.selectedOpen = true))
-      }
-
-      if (this.selectedOpen) {
-        this.selectedOpen = false
-        requestAnimationFrame(() => requestAnimationFrame(() => open()))
-      } else {
-        open()
-      }
-
-      nativeEvent.stopPropagation()
+    saveD(date) {
+      this.$refs.menu.save(date)
     },
     getData() {
       this.$sp
         .getListData({
           baseUrl: this.baseUrl,
-          listName: 'medicalrecordlist',
-          select: 'Title,Login,position,division,datevisit,fio',
+          listName: 'Terapevt',
+          select: 'Title,Date',
+          top: 500,
           devStaticDataUrl: 'TestData/list-read-example.json'
         })
         .then(results => {
           const events = []
-
           if (results) {
             for (let i = 0; i < results.length; i++) {
-              const first = new Date(results[i].datevisit)
-              const second = new Date(first.getTime() + 360000)
+              const first = new Date(results[i].Date)
+              const second = new Date(first.getTime() + 900000)
               events.push({
-                name: results[i].fio,
+                name: 'Запись',
                 start: first,
                 end: second,
                 color: this.colors[this.rnd(0, this.colors.length - 1)],
-                timed: true,
-                position: results[i].position,
-                division: results[i].division
+                timed: true
               })
-              this.events = events
             }
           }
+          this.events = events
+          console.log(events)
         })
     },
     rnd(a, b) {
@@ -355,25 +351,26 @@ export default {
     hideDialog() {
       this.dialog = false
       this.person = null
-      this.event.tabNum = ''
+      this.event.be = ''
+      this.event.dateOfBirth = null
+      this.event.date = null
     },
     save() {
       if (this.$refs.form.validate()) {
-        if (!this.event.dateTime) { return }
+        if (!this.event.date) { return }
 
         const obj = Object.assign({}, this.event)
         this.hideDialog()
         this.$sp.getFormDigest().then(() => {
           this.$sp.addListItem({
             baseUrl: this.baseUrl,
-            listName: 'medicalrecordlist',
+            listName: 'Terapevt',
             itemData: {
-              Title: obj.tabNum,
+              Title: obj.fio,
               Login: obj.login,
-              position: obj.position,
-              division: obj.division,
-              datevisit: obj.dateTime,
-              fio: obj.fio
+              Date: obj.date,
+              Be: obj.be,
+              DateOfBirth: obj.dateOfBirth
             }
 
           }).then(() => {

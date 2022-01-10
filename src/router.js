@@ -13,13 +13,6 @@ export default new Router({
       active: true,
       component: Calendar
     },
-    {
-      path: '/List',
-      name: 'List',
-      label: 'Список',
-      active: true,
-      component: () => import('./views/List')
-    },
     { path: '*', redirect: '/' }
   ]
 })

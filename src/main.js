@@ -6,7 +6,6 @@ import '@babel/polyfill'
 import Vue from 'vue'
 import router from './router'
 import SharePoint from './plugins/sharepoint-vue-plugin'
-import Logger from './plugins/logger-vue-plugin'
 import store from './store'
 import App from './App.vue'
 
@@ -18,7 +17,14 @@ import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 import '@mdi/font/css/materialdesignicons.css'
 
-Vue.use(Vuetify)
+import ru from 'vuetify/es5/locale/ru'
+
+Vue.use(Vuetify, {
+  lang: {
+    locales: { ru },
+    current: 'ru'
+  }
+})
 
 const opts = {
   icons: {
@@ -40,19 +46,6 @@ Vue.use(SharePoint, BASE_PATH, {
   devLoadDelay: 1200
 })
 
-Vue.use(Logger, {
-  propertyName: '$logger',
-  isConsoleActive: DEV_MODE,
-  listName: 'ErrorLogs'
-})
-
-import DatetimePicker from 'vuetify-datetime-picker'
-
-Vue.use(DatetimePicker)
-
-import VueMoment from 'vue-moment'
-Vue.use(VueMoment)
-
 Vue.config.productionTip = false
 
 new Vue({
@@ -66,7 +59,8 @@ new Vue({
   },
   created() {
     // set SharePoint for error logger
-    this.$logger.spc = this.$sp
+
+    this.$vuetify.lang.current = 'ru'
 
     // register a global reference to access the logger
     if (typeof window === 'object') window.logger = this.$logger
@@ -80,7 +74,6 @@ new Vue({
     // identify current user
     this.$store
       .dispatch('users/loadCurrentUser', {
-        spc: this.$sp
       })
       .catch(error => {
         this.$logger.log(error)
